@@ -1,23 +1,3 @@
-# PLANEJAMENTO
-
-0 - Fazer o planejamento das tarefas.
-
-1 - Criar um template para escrever o estudo no confluence
-
-2 - Ler as documentações anotar as referencias
-
-3 - Escrever rascunho sobre o que estou lendo
-
-4 - Escrever as dúvidas
-
-5 - Preparar um exemplo com código sobre o que foi estudado
-
-6 - Preparar um workshop (treinamento para a apresentação para o estado de minas)
-
-<br>
-
-# REFERENCIAS
-
 # ESTUDO
 
 ## Por que o desempenho é importante
@@ -49,7 +29,7 @@ ref: [Web Vitals](https://web.dev/learn-web-vitals/)
 Os três principais pilares do Core Web Vitals se resumem em LCP (Largest Contentful Paint), FID (First Input Delay) e CLS (Cumulative Layout Shift).
 
 [LCP](https://web.dev/lcp/): Em resumo o lcp é o tempo loading do maior conteúdo mostrado ao usuário, segundo as documentações do [google](https://developers.google.com/) uma boa experiência ao usuário é fornecida quando o lcp ocorre dentro de 2,5 segundos, ou seja, o carregamento da maior imagem ou bloco de texto visível na viewport em relação a quando a página começou a carregar pela primeira vez deve ser de no máximo 2,5 segundos.
-elementos html que são considerados ao medir p LCP: <img>, <video> e blocos de textos ou nós contendo textos.
+elementos html que são considerados ao medir o LCP: \<img>, \<video> e blocos de textos ou nós contendo textos.
 obs: margens, paddings e borders não são incluídos no calculo do LCP.
 
 [FID](https://web.dev/fid/): O fid mede a interatividade do usuário com a página, ou seja, o tempo desde que o usuário realizou a ação até o momento em que o navegador foi capaz de começar a processar manipuladores de eventos em resposta a essa interação.
