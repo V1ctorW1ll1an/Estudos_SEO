@@ -34,4 +34,10 @@ obs: margens, paddings e borders não são incluídos no calculo do LCP.
 
 [FID](https://web.dev/fid/): O fid mede a interatividade do usuário com a página, ou seja, o tempo desde que o usuário realizou a ação até o momento em que o navegador foi capaz de começar a processar manipuladores de eventos em resposta a essa interação.
 Um fid considerado bom deve ter cerca de 100 milissegundos ou menos.
-As Consequências desse atraso é um usuário frustrado pois ele interage com a página e nada acontece. Geralmente esse atraso ocorre pois a main-thread (lembrando que js é singleThread) está ocupada processando algum arquivo javascript
+As Consequências desse atraso é um usuário frustrado pois ele interage com a página e nada acontece. Geralmente esse atraso ocorre pois a main-thread (lembrando que js é singleThread) está ocupada processando algum arquivo javascript.
+Por que medir a primeira entrada do usuário?
+1 - A primeira entrada do usuário é a primeira impressão que o mesmo terá em relação a página.
+2 - Os maiores problemas de interatividades ocorrem durante o carregamento da página.
+3 - As primeiras entradas são ações como cliques, toques ou pressionamentos de teclas, cliques em inputs, botões e etc, zoom ou scroll não entram nessa lista.
+
+[CLS](https://web.dev/cls/):
